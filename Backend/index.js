@@ -14,7 +14,7 @@ app.use(cors());
 app.use('/api', authRoutes); 
 
 
-const uri = 'mongodb+srv://francesco_uni:4EgzFhxX8yldCKme@cluster0.utchp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const uri = 'mongodb+srv://';
 
 mongoose.connect(uri, {
   useNewUrlParser: true,
